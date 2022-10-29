@@ -1,0 +1,24 @@
+############# Database Properties ###########################################
+# spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+# spring.datasource.url=
+# spring.datasource.username=
+# spring.datasource.password=
+# spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+# spring.jpa.hibernate.ddl-auto=update
+# spring.datasource.initialize=true
+# spring.jpa.show-sql=true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${env.DB_URL}
+    username: ${env.DB_USERNAME}
+    password: ${env.DB_PASSWORD}
+    initialize: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
