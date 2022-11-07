@@ -22,3 +22,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+  ############# Mail Properties ###########################################
+  # spring.mail.host=
+  # spring.mail.port=
+  # spring.mail.username=
+  # spring.mail.password=
+  # spring.mail.protocol=
+  mail:
+    host: ${env.MAIL_HOST}
+    port: ${env.MAIL_PORT}
+    username: ${env.MAIL_USERNAME}
+    password: ${env.MAIL_PASSWORD}
+    protocol: ${env.MAIL_PROTOCOL}
