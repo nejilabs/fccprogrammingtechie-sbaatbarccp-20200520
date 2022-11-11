@@ -3,7 +3,7 @@
 
 <!-- Color Palette for Session Status: https://www.color-hex.com/color-palette/35021 -->
 
-[![Session Status: ](https://img.shields.io/badge/⌛%20Ongoing-gray.svg?color=e7b416&style=for-the-badge)![Session Timestamp: ](https://img.shields.io/badge/0:03:50%20/%203:13:18-db7b2b?style=for-the-badge)](https://github.com/newojima/codewitharjun-fssbrs-20220811)
+[![Session Status: ](https://img.shields.io/badge/⌛%20Ongoing-gray.svg?color=e7b416&style=for-the-badge)![Session Timestamp: ](https://img.shields.io/badge/0:12:06%20/%203:13:18-db7b2b?style=for-the-badge)](https://github.com/newojima/codewitharjun-fssbrs-20220811)
 
 </div>
 
